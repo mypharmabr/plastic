@@ -1,10 +1,10 @@
 <?php
 
-namespace Sleimanx2\Plastic\Map;
+namespace MyPharmaBr\Plastic\Map;
 
 use Closure;
 use Illuminate\Support\Fluent;
-use Sleimanx2\Plastic\Connection;
+use MyPharmaBr\Plastic\Connection;
 
 class Blueprint
 {

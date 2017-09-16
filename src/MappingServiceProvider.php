@@ -1,18 +1,18 @@
 <?php
 
-namespace Sleimanx2\Plastic;
+namespace MyPharmaBr\Plastic;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
-use Sleimanx2\Plastic\Console\Mapping\Install;
-use Sleimanx2\Plastic\Console\Mapping\Make;
-use Sleimanx2\Plastic\Console\Mapping\ReRun;
-use Sleimanx2\Plastic\Console\Mapping\Reset;
-use Sleimanx2\Plastic\Console\Mapping\Run;
-use Sleimanx2\Plastic\Facades\Map;
-use Sleimanx2\Plastic\Mappings\Creator;
-use Sleimanx2\Plastic\Mappings\Mapper;
-use Sleimanx2\Plastic\Mappings\Mappings;
+use MyPharmaBr\Plastic\Console\Mapping\Install;
+use MyPharmaBr\Plastic\Console\Mapping\Make;
+use MyPharmaBr\Plastic\Console\Mapping\ReRun;
+use MyPharmaBr\Plastic\Console\Mapping\Reset;
+use MyPharmaBr\Plastic\Console\Mapping\Run;
+use MyPharmaBr\Plastic\Facades\Map;
+use MyPharmaBr\Plastic\Mappings\Creator;
+use MyPharmaBr\Plastic\Mappings\Mapper;
+use MyPharmaBr\Plastic\Mappings\Mappings;
 
 /**
  * @codeCoverageIgnore

@@ -1,10 +1,10 @@
 <?php
 
-namespace Sleimanx2\Plastic\Map;
+namespace MyPharmaBr\Plastic\Map;
 
 use Closure;
-use Sleimanx2\Plastic\Connection;
-use Sleimanx2\Plastic\Exception\InvalidArgumentException;
+use MyPharmaBr\Plastic\Connection;
+use MyPharmaBr\Plastic\Exception\InvalidArgumentException;
 
 class Builder
 {

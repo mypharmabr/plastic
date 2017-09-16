@@ -1,6 +1,6 @@
 <?php
 
-use Sleimanx2\Plastic\PlasticResult;
+use MyPharmaBr\Plastic\PlasticResult;
 
 class SearchBuilderTest extends PHPUnit_Framework_TestCase
 {
@@ -58,7 +58,7 @@ class SearchBuilderTest extends PHPUnit_Framework_TestCase
     public function it_throws_an_exception_if_provided_with_a_none_searchable_model()
     {
         $builder = $this->getBuilder();
-        $this->setExpectedException('Sleimanx2\Plastic\Exception\InvalidArgumentException');
+        $this->setExpectedException('MyPharmaBr\Plastic\Exception\InvalidArgumentException');
         $builder->model(new NotSearchableModelBuilder());
     }
 
@@ -477,7 +477,7 @@ class SearchBuilderTest extends PHPUnit_Framework_TestCase
         $builder = $this->getBuilder();
         $connection = $builder->getConnection();
         $builder->model(new SearchableModelBuilder());
-        $filler = Mockery::mock('Sleimanx2\Plastic\Fillers\EloquentFiller');
+        $filler = Mockery::mock('MyPharmaBr\Plastic\Fillers\EloquentFiller');
         $builder->setModelFiller($filler);
         $return = [
             'took'      => '200',
@@ -523,7 +523,7 @@ class SearchBuilderTest extends PHPUnit_Framework_TestCase
         $builder->shouldReceive('size')->once()->with(25)->andReturn($builder);
         $builder->shouldReceive('get')->once()->andReturn($result);
 
-        $this->assertInstanceOf(\Sleimanx2\Plastic\PlasticPaginator::class, $builder->paginate());
+        $this->assertInstanceOf(\MyPharmaBr\Plastic\PlasticPaginator::class, $builder->paginate());
     }
 
     /**
@@ -542,16 +542,16 @@ class SearchBuilderTest extends PHPUnit_Framework_TestCase
 
     private function getBuilder()
     {
-        $connection = Mockery::mock('Sleimanx2\Plastic\Connection');
+        $connection = Mockery::mock('MyPharmaBr\Plastic\Connection');
         $query = new \ONGR\ElasticsearchDSL\Search();
 
-        return Mockery::mock('Sleimanx2\Plastic\DSL\SearchBuilder', [$connection, $query])->makePartial();
+        return Mockery::mock('MyPharmaBr\Plastic\DSL\SearchBuilder', [$connection, $query])->makePartial();
     }
 }
 
 class SearchableModelBuilder extends \Illuminate\Database\Eloquent\Model
 {
-    use \Sleimanx2\Plastic\Searchable;
+    use \MyPharmaBr\Plastic\Searchable;
 
     public $documentIndex = 'model_index';
 }

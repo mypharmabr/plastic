@@ -1,6 +1,6 @@
 <?php
 
-namespace Sleimanx2\Plastic;
+namespace MyPharmaBr\Plastic;
 
 use Illuminate\Support\Collection;
 

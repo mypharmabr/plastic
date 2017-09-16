@@ -1,15 +1,15 @@
 <?php
 
-namespace Sleimanx2\Plastic;
+namespace MyPharmaBr\Plastic;
 
 use Elasticsearch\Client;
 use Elasticsearch\ClientBuilder;
 use ONGR\ElasticsearchDSL\Search as DSLQuery;
-use Sleimanx2\Plastic\DSL\SearchBuilder;
-use Sleimanx2\Plastic\DSL\SuggestionBuilder;
-use Sleimanx2\Plastic\Map\Builder as MapBuilder;
-use Sleimanx2\Plastic\Map\Grammar as MapGrammar;
-use Sleimanx2\Plastic\Persistence\EloquentPersistence;
+use MyPharmaBr\Plastic\DSL\SearchBuilder;
+use MyPharmaBr\Plastic\DSL\SuggestionBuilder;
+use MyPharmaBr\Plastic\Map\Builder as MapBuilder;
+use MyPharmaBr\Plastic\Map\Grammar as MapGrammar;
+use MyPharmaBr\Plastic\Persistence\EloquentPersistence;
 
 class Connection
 {

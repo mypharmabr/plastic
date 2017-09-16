@@ -1,6 +1,6 @@
 <?php
 
-namespace Sleimanx2\Plastic\Map;
+namespace MyPharmaBr\Plastic\Map;
 
 use Illuminate\Support\Fluent;
 

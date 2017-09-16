@@ -1,15 +1,15 @@
 <?php
 
-namespace Sleimanx2\Plastic;
+namespace MyPharmaBr\Plastic;
 
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
-use Sleimanx2\Plastic\Facades\Plastic;
-use Sleimanx2\Plastic\Persistence\EloquentPersistence;
+use MyPharmaBr\Plastic\Facades\Plastic;
+use MyPharmaBr\Plastic\Persistence\EloquentPersistence;
 
 /**
- * @method static \Sleimanx2\Plastic\DSL\SearchBuilder search()
- * @method static \Sleimanx2\Plastic\DSL\SuggestionBuilder suggest()
+ * @method static \MyPharmaBr\Plastic\DSL\SearchBuilder search()
+ * @method static \MyPharmaBr\Plastic\DSL\SuggestionBuilder suggest()
  */
 trait Searchable
 {

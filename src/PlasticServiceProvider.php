@@ -1,10 +1,10 @@
 <?php
 
-namespace Sleimanx2\Plastic;
+namespace MyPharmaBr\Plastic;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
-use Sleimanx2\Plastic\Facades\Plastic;
+use MyPharmaBr\Plastic\Facades\Plastic;
 
 /**
  * @codeCoverageIgnore

@@ -29,12 +29,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Sleimanx2\\Plastic\\": "src/"
+      "MyPharmaBr\\Plastic\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Sleimanx2\\Plastic\\Tests\\": "tests/"
+      "MyPharmaBr\\Plastic\\Tests\\": "tests/"
     }
   },
   "config": {

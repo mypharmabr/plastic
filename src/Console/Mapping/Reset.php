@@ -1,10 +1,10 @@
 <?php
 
-namespace Sleimanx2\Plastic\Console\Mapping;
+namespace MyPharmaBr\Plastic\Console\Mapping;
 
 use Illuminate\Console\Command;
 use Illuminate\Console\ConfirmableTrait;
-use Sleimanx2\Plastic\Mappings\Mappings;
+use MyPharmaBr\Plastic\Mappings\Mappings;
 
 class Reset extends Command
 {

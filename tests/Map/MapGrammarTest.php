@@ -1,6 +1,6 @@
 <?php
 
-use Sleimanx2\Plastic\Map\Blueprint;
+use MyPharmaBr\Plastic\Map\Blueprint;
 
 class MapGrammarTest extends \PHPUnit_Framework_TestCase
 {
@@ -216,6 +216,6 @@ class MapGrammarTest extends \PHPUnit_Framework_TestCase
 
     protected function getGrammar()
     {
-        return new \Sleimanx2\Plastic\Map\Grammar();
+        return new \MyPharmaBr\Plastic\Map\Grammar();
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Sleimanx2\Plastic\Mappings;
+namespace MyPharmaBr\Plastic\Mappings;
 
 use Illuminate\Database\ConnectionResolverInterface as Resolver;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Sleimanx2\Plastic\Console\Mapping;
+namespace MyPharmaBr\Plastic\Console\Mapping;
 
 use Illuminate\Support\Composer;
-use Sleimanx2\Plastic\Mappings\Creator;
+use MyPharmaBr\Plastic\Mappings\Creator;
 
 class Make extends BaseCommand
 {

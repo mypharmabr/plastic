@@ -1,11 +1,11 @@
 <?php
 
-namespace Sleimanx2\Plastic\Mappings;
+namespace MyPharmaBr\Plastic\Mappings;
 
 use Illuminate\Database\Eloquent\Model;
-use Sleimanx2\Plastic\Exception\InvalidArgumentException;
-use Sleimanx2\Plastic\Exception\MissingArgumentException;
-use Sleimanx2\Plastic\Searchable;
+use MyPharmaBr\Plastic\Exception\InvalidArgumentException;
+use MyPharmaBr\Plastic\Exception\MissingArgumentException;
+use MyPharmaBr\Plastic\Searchable;
 
 abstract class Mapping
 {

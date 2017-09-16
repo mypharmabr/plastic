@@ -1,6 +1,6 @@
 <?php
 
-namespace Sleimanx2\Plastic\Exception;
+namespace MyPharmaBr\Plastic\Exception;
 
 class InvalidArgumentException extends \InvalidArgumentException
 {
